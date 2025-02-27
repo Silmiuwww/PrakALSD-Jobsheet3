@@ -27,10 +27,11 @@ public class DosenDemo12 {
             sc.nextLine();
         }
 
-        System.out.println("\nData Dosen yang telah dimasukkan:");
-        for (Dosen12 dosen : daftarDosen) {
-            dosen.cetakInfo();
-
+        DataDosen12.dataSemuaDosen(daftarDosen);
+        DataDosen12.jumlahDosenPerJenisKelamin(daftarDosen);
+        DataDosen12.rerataUsiaDosenPerJenisKelamin(daftarDosen);
+        DataDosen12.infoDosenPalingTua(daftarDosen);
+        DataDosen12.infoDosenPalingMuda(daftarDosen);
+        
     }
-}
 }

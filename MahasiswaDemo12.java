@@ -9,7 +9,7 @@ public class MahasiswaDemo12 {
         arrayOfMahasiswa[i] = new Mahasiswa12();
 
         System.out.print("Masukan Data Mahasiswa ke-" + (i + 1));
-        System.out.print("\nNIM     :");
+        System.out.print("\nNIM     :"); 
         arrayOfMahasiswa[i].nim = sc.nextLine();
         System.out.print("Nama    :");
         arrayOfMahasiswa[i].nama = sc.nextLine();
